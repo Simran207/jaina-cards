@@ -1,0 +1,7 @@
+ALTER TABLE users ADD COLUMN is_eligible BOOLEAN;
+
+ALTER TABLE scores ADD COLUMN duration INTEGER DEFAULT 0;
+
+ALTER TABLE total_marks ADD COLUMN avg_time_taken FLOAT;
+
+ALTER TABLE rooms ADD COLUMN is_blocked boolean;
